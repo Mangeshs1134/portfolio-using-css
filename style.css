@@ -157,7 +157,7 @@
     .skills{
         display: grid;
         /* width: minmax(600px,1200px); */
-        width: 99vw;
+        /* width: 99vw; */
         /* height: minmax(600px,900px); */
         height: 500px;
         grid-template-columns: 1fr 1fr 1fr;
@@ -213,7 +213,7 @@ background-color:#6422B8 ;
         background-color: #FFD93B;
     }
     .few{
-        width: 150px;
+        width: 100px;
         height: auto;
     }
     .hireme{
@@ -246,7 +246,7 @@ background-color:#6422B8 ;
         height: 30px;
         background-color: #4EF3FA;
     }
-    @media(min-width:320px)and(max-width:450px){
+    @media screen and (max-width:1220px){
         .navbar{
             display: flex;
             flex-basis: 100px;
@@ -267,7 +267,7 @@ background-color:#6422B8 ;
         }
         .mid{
             display: flex;
-            width: 100vw;
+            
             flex-wrap: wrap;
             
         }  
@@ -295,14 +295,19 @@ background-color:#6422B8 ;
         }
         .skills{
             display: grid;
-            width: 100vw;
+            /* width: 100vw; */
+            max-width: 1220px;
             grid-gap: 3px;
         }
         .hire{
-            width: 100vw;
+            /* width: 100vw; */
         }
         .footer{
-         width: 100vw;
+         /* width: 100vw; */
+        }
+        .few{
+            width: 50px;
+            height: auto;
         }
 
     }
