@@ -246,7 +246,7 @@ background-color:#6422B8 ;
         height: 30px;
         background-color: #4EF3FA;
     }
-    @media(max-width:600px){
+    @media(min-width:320px)and(max-width:450px){
         .navbar{
             display: flex;
             flex-basis: 100px;
@@ -267,6 +267,7 @@ background-color:#6422B8 ;
         }
         .mid{
             display: flex;
+            width: 100vw;
             flex-wrap: wrap;
             
         }  
@@ -289,4 +290,19 @@ background-color:#6422B8 ;
         img{
             height: 300px;
         }
+        .profile{
+            width: 100vw;
+        }
+        .skills{
+            display: grid;
+            width: 100vw;
+            grid-gap: 3px;
+        }
+        .hire{
+            width: 100vw;
+        }
+        .footer{
+         width: 100vw;
+        }
+
     }
