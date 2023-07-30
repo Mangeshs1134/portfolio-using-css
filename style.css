@@ -213,3 +213,32 @@ background-color:#6422B8 ;
         width: 150px;
         height: auto;
     }
+    .hireme{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 500px;
+        background-color: #4E9DFA;
+        justify-content: center;
+        align-items: center;
+    }
+    .hire{
+        display: flex;
+        width: 250px;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        background-color: #FA4E9D;
+        font-size: 50px;
+        font-weight: bolder;
+        border: 3px solid white;
+        transform: rotate(351deg);
+
+
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        background-color: #4EF3FA;
+    }
