@@ -246,3 +246,47 @@ background-color:#6422B8 ;
         height: 30px;
         background-color: #4EF3FA;
     }
+    @media(max-width:600px){
+        .navbar{
+            display: flex;
+            flex-basis: 100px;
+            flex-wrap: wrap;
+            /* justify-content: center; */
+           
+        }
+        .head{
+            display: flex;
+            justify-content: center;
+            /* padding-left: 30px; */
+        }
+        .righthead{
+            padding-left: 25px;
+            display: flex;
+            justify-content: center;
+           
+        }
+        .mid{
+            display: flex;
+            flex-wrap: wrap;
+            
+        }  
+        .first{
+            display: inline-block;
+           width: auto;
+            padding: 30px 50px;
+            font-size: 50px;
+            font-family: 'DM Sans', sans-serif;
+           
+        }
+        .second{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            /* min-width: 49%; */
+        }
+        .one{
+            padding: 20px;  
+        }
+        img{
+            height: 300px;
+        }
+    }
